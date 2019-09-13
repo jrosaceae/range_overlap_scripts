@@ -6,6 +6,7 @@
 # second column longitude, and third column latitude as is required by the used alpha hull
 # function. IMPORTANT. coordinate columns should be "decimalLongitude" and "decimalLatitude"
 
+options(warn = -1)
 
 `flexible.alpha.hull` <-
 function(data, singleton_buffer = 2414.02, max_distance = 3000)
